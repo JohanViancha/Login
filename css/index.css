@@ -93,3 +93,12 @@ label {
     font-weight: 600 !important;
     text-transform: uppercase;
 }
+
+@media (max-width: 720px) {
+    .section-principal {
+        width: 100%;
+    }
+    .section-secundario {
+        display: none;
+    }
+}
